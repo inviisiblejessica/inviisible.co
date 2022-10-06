@@ -3,12 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="주식회사 인비저블, Inviisible Corp., 소셜벤처, 에듀테크, EdTech, we build corecting">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INVIISIBLE</title>
+    <title>INVIISIBLE 주식회사 인비저블</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/favii.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
     <style>
+
+        html {
+            width: 100%;
+            min-height: 100%;
+        }
+
         body {
             background-color: #000000;
             color: #ffffff;
@@ -17,7 +30,21 @@
             justify-content: center;
             align-items: center;
             font-family: 'Press Start 2P', cursive;
-            
+            width: 100%;
+            min-height: 100%;
+
+
+        }
+
+        header {
+            width: 100%;
+            height: 20%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #000000;
+            font-size: 40px;
 
         }
 
@@ -25,15 +52,55 @@
             justify-content: center;
             align-items: center;
             width: 50%;
+            min-height: 60%;
         }
 
-        footer {
+        span.title {
+            font-size: 20px;
+        }
+
+        span {
+            font-size: 14px;
+            width: 100%;
+            word-wrap:break-word;
+        }
+
+        footer.container {
             font-family: 'Noto Sans KR', sans-serif;
             font-weight: 300;
             color: #808080;
             font-size: 10px;
             width: 50%;
+            height: 20%;
+            position: bottom;
+            padding: 0 0 10% 0;
         }
+
+        img.logo {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        iframe {
+	        aspect-ratio: 16 / 9;
+	        height: 100%;
+	        width: 100%;
+
+        }
+
+        a:hover {
+            color: 0969C1;
+        }
+        
+        div.content {
+            margin: 40px 0 40px 0;
+        }
+        
+        .row > div {
+            padding: 5px 5px 5px 5px;
+        }
+
 
         
         
@@ -41,23 +108,53 @@
 </head>
 <body>
     <header>
-
+        Inviiisble Corp.,
     </header>
     
     <main>
         <div>
-            <h1>hello world!</h1>
+            <h1>Hello world!</h1>
+        </div>
+        <br/>
+        <br/>
+        <div class='content'>
+            <span class='title'>	
+                &#9733; GM :D</span>
+            <br/>
+            <span>This is team inviisible and we're located at Seoul, South Korea. Initially gathered up in 2019, incorporated in 2021 right after winning a series of hackathons and pitching competitions. We've been sponsored by renowned orgs and funds including KT&G, ministry of SMEs and LIKELION UNIV.</span>
         </div>
 
-        <div>
-            <span>45-9 Bongeunsa-ro 22-gil, Yeoksam-dong, Gangnam-gu, Seoul</span>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25315.254131114347!2d127.02843900303394!3d37.52190760758403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3aa60fe8fab%3A0x9e1ab35c2eed5c3f!2z64W87IqkIChub25jZSk!5e0!3m2!1sen!2skr!4v1665038530546!5m2!1sen!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class='content'>
+            <span class='title'>	
+                &#9733; REACH US</span>
+            <br/>
+            <span>jessica@inviisible.co</span>
+            <br/>
+            <span>+82 10 6750 2578</span>
         </div>
+
+        <div class='content'>
+            <span class='title'>	
+                &#9733; ADDRESS</span>
+            <br/>
+            <span>45-9 Bongeunsa-ro 22-gil, Yeoksam-dong, Gangnam-gu, Seoul</span>
+            <br/><br/>
+            <iframe class='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25315.254131114347!2d127.02843900303394!3d37.52190760758403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3aa60fe8fab%3A0x9e1ab35c2eed5c3f!2z64W87IqkIChub25jZSk!5e0!3m2!1sen!2skr!4v1665038530546!5m2!1sen!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
     </main>
 
-    <footer>
-        <span>주식회사 인비저블 Inviisible Corp.,</span>
-        <span>사업자등록번호 149-86-02364 대표이사 이은정 개인정보관리책임자 이은정 hello@inviisible.co 서울특별시 강남구 봉은사로22길 45-9, 1층 논스 제네시스</span>
+    <footer class='container'>
+        <hr>
+        <div class='row'>
+        <div class='col-sm-4'>
+            <img class='logo' src='logo_boxed.png'/>
+        </div>
+        <div class='col-sm-8'>주식회사 인비저블 Inviisible Corp., | 사업자등록번호 149-86-02364 | 대표이사 이은정 | 개인정보관리책임자 이은정 | hello@inviisible.co | 서울특별시 강남구 봉은사로22길 45-9, 1층 논스 제네시스 </div>
+        </div>
     </footer>
+
 </body>
 </html>
